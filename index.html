@@ -23,6 +23,7 @@
 </head>
 <body>
 
+    
     <header>
         <!-- Navbar Starts Here  -->
          <div class="navbar bg-white shadow-sm px-5 md:px-7 lg:px-14">
@@ -57,7 +58,7 @@
                     
                     <div class="p-2 ">
                         <a class="btn rounded-full bg-[#41ff6b1a] p-5 border-none">
-                            <p class="font-extrabold">0</p>
+                            <p class="font-extrabold "> <span id="heart-count2" >0</span> </p>
                             <img class="w-[30px] "src="./B12-A5-Emergency-Hotline/assets/heart.png"alt=""/>
                         </a>
 
@@ -67,7 +68,7 @@
                         </a>
 
                         <a class="btn rounded-full bg-[#00A63E] p-6 border-none text-white font-semibold">
-                            <p>2</p>
+                            <p class="copy-count ">0</p>
                             Copy
                         </a>
 
@@ -93,7 +94,7 @@
                     </a>
 
                     <a class="btn rounded-full bg-[#00A63E] p-6 border-none text-white font-semibold">
-                        <p>2</p>
+                        <p class="copy-count2 ">0</p>
                         Copy
                     </a>
                 </div>
@@ -129,48 +130,47 @@
 
                     <!-- Service Card-1 -->
                     <div class="card w-full bg-[#fff] p-3 md:p-7 rounded-xl shadow-sm">
+                        <div class="flex justify-between items-center">
 
-                    <div class="flex justify-between items-center">
+                            <div class="bg-[#FFE3E2] rounded-2xl p-3 text-center">
+                                <img
+                                    class="w-8" src="./B12-A5-Emergency-Hotline/assets/emergency.png " alt="Siren-img"/>
+                            </div>
 
-                        <div class="bg-[#FFE3E2] rounded-2xl p-3 text-center">
-                            <img
-                                class="w-8" src="./B12-A5-Emergency-Hotline/assets/emergency.png " alt="Siren-img"/>
+                            <img class="heart-icon-btn" class="w-7" src="./B12-A5-Emergency-Hotline/assets/heartIcon.png"alt="heart-icon"/>
+
                         </div>
 
-                        <img class="heart-icon-btn" class="w-7" src="./B12-A5-Emergency-Hotline/assets/heartIcon.png"alt="heart-icon"/>
+                        <div class="mt-4 ">
+                            <h3 class="font-hind-madurai text-2xl font-bold service-name">National Emergency Number</h3>
 
-                    </div>
+                            <p class="text-[#5C5C5C] text-lg font-roboto">National Emergency</p>
 
-                    <div class="mt-4 ">
-                        <h3 class="font-hind-madurai text-2xl font-bold service-name">National Emergency Number</h3>
+                            <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">999</h2>
 
-                        <p class="text-[#5C5C5C] text-lg font-roboto">National Emergency</p>
+                            <a
+                            class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"
+                            href=""
+                            >All</a
+                            >
 
-                        <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">999</h2>
+                            <div class="flex items-center mt-6 justify-between gap-1 ">
+                                
+                        
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5] ">
+                                    <img class="" src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
+                                </button>
+                        
 
-                        <a
-                        class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"
-                        href=""
-                        >All</a
-                        >
-
-                        <div class="flex items-center mt-6 justify-between gap-1 ">
                             
-                     
-                            <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5] ">
-                                <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
-                                <p class="font-roboto text-[#5C5C5C]">Copy</p>
-                            </button>
-                       
-
-                        
-                            <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4 ">
-                                <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt=""/>
-                                <p class="font-roboto text-white call-btn">Call</p>
-                            </button>
-                        
-                        </div>
-                    </div> 
+                                <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4 ">
+                                    <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt=""/>
+                                    <p class="font-roboto text-white call-btn">Call</p>
+                                </button>
+                            
+                            </div>
+                        </div> 
                     </div>
 
                     <!-- Service Card 2 -->
@@ -198,9 +198,9 @@
 
                             <div class="flex items-center mt-6 justify-between gap-1">
                             
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]" >
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]" >
                                     <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
-                                   <p class="font-roboto text-[#5C5C5C]">Copy</p>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
                                 </button>
                             
 
@@ -235,9 +235,9 @@
                             <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"href="" >Fire</a>
 
                             <div class="flex items-center mt-6 justify-between gap-1">
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
-                                <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
-                                    <p class="font-roboto text-[#5C5C5C]">Copy</p>
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
+                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
                                 </button>
 
                                 <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
@@ -278,9 +278,9 @@
                             <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"href="">Health</a>
 
                             <div class="flex items-center mt-6 justify-between gap-1">
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]" >
-                                   <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt="" />
-                                    <p class="font-roboto text-[#5C5C5C]">Copy</p>
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]" >
+                                   <img  src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
                                 </button>
 
                                 <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
@@ -311,26 +311,26 @@
                         </div>
 
                         <div class="mt-4 ">
-                                    <h3  class="font-hind-madurai text-2xl font-bold service-name">Women & Child Helpline</h3>
+                            <h3  class="font-hind-madurai text-2xl font-bold service-name">Women & Child Helpline</h3>
 
-                                    <p class="text-[#5C5C5C] text-lg font-roboto">Women & Child Helpline</p>
+                            <p class="text-[#5C5C5C] text-lg font-roboto">Women & Child Helpline</p>
 
-                                    <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">109</h2>
+                            <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">109</h2>
 
-                                    <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"href="">Help</a>
+                            <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"href="">Help</a>
 
-                                    <div class="flex items-center mt-6 justify-between gap-1">
-                                        <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
-                                            <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
-                                            <p class="font-roboto text-[#5C5C5C]">Copy</p>
-                                        </button>
+                            <div class="flex items-center mt-6 justify-between gap-1">
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
+                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
+                                </button>
 
-                                        <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
-                                            <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt=""/>
-                                            <p class="font-roboto text-white call-btn">Call</p>
-                                        </button>
+                                <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
+                                        <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt=""/>
+                                        <p class="font-roboto text-white call-btn">Call</p>
+                                </button>
                                     
-                                    </div>
+                            </div>
                         </div>
                     </div>
 
@@ -365,9 +365,9 @@
 
                             <div class="flex items-center mt-6 justify-between gap-1">
 
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
-                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt="" />
-                                    <p class="font-roboto text-[#5C5C5C]">Copy</p>
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
+                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
                                 </button>
 
                                 <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
@@ -400,9 +400,9 @@
                             <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"href="">Electricity</a>
 
                             <div class="flex items-center mt-6 justify-between gap-1">
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
-                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt="" />
-                                    <p class="font-roboto text-[#5C5C5C]">Copy</p>
+                                <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
+                                   <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                    <p class="font-roboto text-[#5C5C5C] ">Copy</p>
                                 </button>
 
                                 <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
@@ -415,72 +415,72 @@
 
                     <!-- Service Card 8 -->
                      <div class="card w-full bg-[#fff] p-3 md:p-7 rounded-xl shadow-sm">
-                        <div class="flex justify-between items-center">
+                            <div class="flex justify-between items-center">
 
-                            <div class="bg-[#FFE3E2] rounded-2xl p-3 text-center">
-                                <img class="w-8"src="./B12-A5-Emergency-Hotline/assets/emergency.png "/>
+                                <div class="bg-[#FFE3E2] rounded-2xl p-3 text-center">
+                                    <img class="w-8"src="./B12-A5-Emergency-Hotline/assets/emergency.png "/>
+                                </div>
+
+                                <img class="heart-icon-btn" class="w-7"src="./B12-A5-Emergency-Hotline/assets/heartIcon.png"alt="heart-icon"/>
                             </div>
 
-                            <img class="heart-icon-btn" class="w-7"src="./B12-A5-Emergency-Hotline/assets/heartIcon.png"alt="heart-icon"/>
-                        </div>
+                            <div class="mt-4 ">
+                                <h3 class="font-hind-madurai text-2xl font-bold service-name">Brac Helpline</h3>
 
-                        <div class="mt-4 ">
-                            <h3 class="font-hind-madurai text-2xl font-bold service-name">Brac Helpline</h3>
+                                <p class="text-[#5C5C5C] text-lg font-roboto">Brac</p>
 
-                            <p class="text-[#5C5C5C] text-lg font-roboto">Brac</p>
+                                <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">16445</h2>
 
-                            <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">16445</h2>
+                                <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"  href="" >NGO</a>
 
-                            <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"  href="" >NGO</a>
+                                <div class="flex items-center mt-6 justify-between gap-1">
+                                    <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
+                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                        <p class="font-roboto text-[#5C5C5C] ">Copy</p>
+                                    </button>
 
-                            <div class="flex items-center mt-6 justify-between gap-1">
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
-                                    <a href="" ><img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt="" /></a>
-                                    <p class="font-roboto text-[#5C5C5C]">Copy</p>
-                                </button>
-
-                                <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
-                                    <a href="" ><img src="./B12-A5-Emergency-Hotline/assets/call.png" alt="" /></a>
-                                    <p class="font-roboto text-white call-btn">Call</p>
-                                </button>
-                            
+                                    <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
+                                        <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt="" />
+                                        <p class="font-roboto text-white call-btn">Call</p>
+                                    </button>
+                                
+                                </div>
                             </div>
-                        </div>
                     </div>
 
                     <!-- Service Card 9 -->
                        <div class="card w-full bg-[#fff] p-3 md:p-7 rounded-xl shadow-sm">
-                        <div class="flex justify-between items-center">
+                            <div class="flex justify-between items-center">
 
-                            <div class="bg-[#FFE3E2] rounded-2xl p-3 text-center">
-                                <img class="w-8"src="./B12-A5-Emergency-Hotline/assets/emergency.png "/>
+                                <div class="bg-[#FFE3E2] rounded-2xl p-3 text-center">
+                                    <img class="w-8"src="./B12-A5-Emergency-Hotline/assets/emergency.png "/>
+                                </div>
+
+                                <img class="heart-icon-btn" class="w-7"src="./B12-A5-Emergency-Hotline/assets/  heartIcon.png"alt="heart-icon"/>
                             </div>
 
-                            <img class="heart-icon-btn" class="w-7"src="./B12-A5-Emergency-Hotline/assets/heartIcon.png"alt="heart-icon"/>
-                        </div>
+                            <div class="mt-4 ">
+                                <h3 class="font-hind-madurai text-2xl font-bold service-name">Bangladesh Railway Helpline </h3>
 
-                        <div class="mt-4 ">
-                            <h3 class="font-hind-madurai text-2xl font-bold service-name">Bangladesh Railway Helpline </h3>
+                                <p class="text-[#5C5C5C] text-lg font-roboto">Bangladesh Railway</p>
 
-                            <p class="text-[#5C5C5C] text-lg font-roboto">Bangladesh Railway</p>
+                                <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">163</h2>
 
-                            <h2 class="font-roboto text-3xl font-bold my-4 service-hotline">163</h2>
+                                <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"  href="" >NGO</a>
 
-                            <a class="bg-[#F2F2F2] rounded-full p-3 text-[#5C5C5C] font-hind-madurai"  href="" >NGO</a>
+                                <div class="flex items-center mt-6 justify-between gap-1">
+                                    <button class="copy-btn btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
+                                        <img  src="./B12-A5-Emergency-Hotline/assets/Group.png" alt=""/>
+                                        <p class="font-roboto text-[#5C5C5C] ">Copy</p>
+                                    </button>
 
-                            <div class="flex items-center mt-6 justify-between gap-1">
-                                <button class="btn w-[182px] bg-[#fff] p-4 rounded-lg border border-[#D4D6D5]">
-                                    <img src="./B12-A5-Emergency-Hotline/assets/Group.png" alt="" />
-                                    <p class="font-roboto text-[#5C5C5C]">Copy</p>
-                                </button>
-
-                                <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
-                                    <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt="" />
-                                    <p class="font-roboto text-white call-btn">Call</p>
-                                </button>
-                            
+                                    <button class="btn w-[182px] border-none bg-[#00A63E] rounded-lg p-4">
+                                        <img src="./B12-A5-Emergency-Hotline/assets/call.png" alt="" />
+                                        <p class="font-roboto text-white call-btn">Call</p>
+                                    </button>
+                                
+                                </div>
                             </div>
-                        </div>
                     </div>
                     
                      
@@ -511,10 +511,9 @@
 
             </section>
             
-
-
         </section>
     </main>
+
     
 </body>
     <script src="./script/heartCount.js"></script>
